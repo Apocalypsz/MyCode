@@ -1,7 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
- 
+int binsearch(int x, int v[], int n) 
+{
+
+
+}
 int main()
 {
 	//int day;
@@ -76,7 +80,7 @@ int main()
 	//int i;
 	//int ans = 1;
 	//scanf("%d", &a);
-	//for (i = 1; i < a+1; i++)
+	//for (i = 1; i <= a; i++)
 	//{
 	//	ans *= i;
 	//}
@@ -110,6 +114,7 @@ int main()
 
 	//¢Û
 
+	
 
 
 
@@ -158,7 +163,7 @@ int main()
 
 	//	printf("\n");
 	//	i++;
-	}
+	//}
 
 
 	return 0;
