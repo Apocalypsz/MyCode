@@ -100,15 +100,11 @@ int main()
 	//¢Ú¼ÆËã1!+2!+....+10!
 	//int sum = 0;
 	//int i;
-	//int j;
-	//for (i = 0; i < 2; i++)
+	//int fac = 1;
+	//for (i = 1; i <= 4; i++)
 	//{
-	//	int jie = 1;
-	//	for (j = 1; j < i + 2; j++)
-	//	{
-	//		jie *= j;
-	//	}
-	//	sum += jie;
+	//	fac *= i;
+	//	sum += fac;
 	//}
 	//printf("%d", sum);
 
