@@ -16,18 +16,19 @@ void menu()
 //游戏内容
 void game()
 {
+	//存储数据（二维数组）
 	char board[ROW][COL];
 
+	//初始化棋盘
+	InitBoard(board,ROW,COL);
 
+	//打印棋盘，本质是打印数组内容
+	DisplayBoard(board, ROW, COL);
 
 
 
 
 }
-
-
-
-
 
 
 
@@ -45,15 +46,15 @@ int main()
 		switch (input)
 		{
 		case 1:
-			printf("玩游戏");
+			printf("玩游戏\n");
 			game();
 			break;
 		case 0:
-			printf("退出游戏");
+			printf("退出游戏\n");
 
 			break;
 		default:
-			printf("选择错误，重新选择");
+			printf("选择错误，重新选择\n");
 
 			break;
 
