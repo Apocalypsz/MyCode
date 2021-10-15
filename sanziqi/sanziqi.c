@@ -24,9 +24,43 @@ void game()
 
 	//打印棋盘，本质是打印数组内容
 	DisplayBoard(board, ROW, COL);
-
-
-
+	char ret = 0;
+	while (1)
+	{
+		//玩家先走一步
+		Playermove(board, ROW, COL);
+		DisplayBoard(board, ROW, COL);
+		//判断赢了没
+		ret = Iswin(board, ROW, COL);
+		if (ret != 'C')
+		{
+			break;
+		}
+		
+		//电脑走一步
+		Computermove(board, ROW, COL);
+		DisplayBoard(board, ROW, COL);
+		//判断赢了没
+		ret = Iswin(board, ROW, COL);
+		if (ret != 'C')
+		{
+			break;
+		}
+	}
+	if (ret == '*')
+		{
+		printf("玩家赢了\n");
+		DisplayBoard(board, ROW, COL);
+		}
+	else if (ret == '#')
+		{
+		printf("电脑赢了\n");
+		DisplayBoard(board, ROW, COL);
+		}
+	else if (ret == 'Q')
+		{
+		printf("平局\n");
+		}
 
 }
 
@@ -38,6 +72,9 @@ void game()
 int main()
 {
 	int input = 0;
+
+	srand((unsigned int)time(NULL));
+
 	do
 	{
 		menu();
