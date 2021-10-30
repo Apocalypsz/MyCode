@@ -1,0 +1,4 @@
+﻿  test.c
+E:\Code\2021\MyCode\READ\Project1\test.c(139,1): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Code\2021\MyCode\READ\Project1\test.c(140,1): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  Project1.vcxproj -> E:\Code\2021\MyCode\READ\Project1\Debug\Project1.exe
