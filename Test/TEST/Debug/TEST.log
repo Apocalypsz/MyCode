@@ -1,6 +1,2 @@
-﻿  10-28.c
-E:\Code\2021\MyCode\Test\TEST\10-28.c(107,12): warning C4477: “printf”: 格式字符串“%lld”需要类型“__int64”的参数，但可变参数 1 拥有了类型“int”
-E:\Code\2021\MyCode\Test\TEST\10-28.c(107,12): message : 请考虑在格式字符串中使用“%d”
-E:\Code\2021\MyCode\Test\TEST\10-28.c(107,12): message : 请考虑在格式字符串中使用“%Id”
-E:\Code\2021\MyCode\Test\TEST\10-28.c(107,12): message : 请考虑在格式字符串中使用“%I32d”
+﻿  11-6.c
   TEST.vcxproj -> E:\Code\2021\MyCode\Test\TEST\Debug\TEST.exe
